@@ -12,7 +12,7 @@ node_js:
   - 12
 
 install:
-  - npm ci
+  - npm i
 
 cache:
   directories:
@@ -20,10 +20,10 @@ cache:
     - ./node_modules
     - ~/.cache
   override:
-    - npm ci
+    - npm i
 
 scripts:
-  - npm ci
+  - npm i
   - npm run build
 
 deploy:
