@@ -1,0 +1,73 @@
+.board {
+    position: absolute;
+    left: 250px;
+    z-index: 50;
+}
+
+.arrow {
+    margin-top: 60px;
+    height: 50px;
+}
+
+.container {
+    position: relative;
+    margin: 45px 10vw;
+    padding: 15vh;
+    height: 60vh;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(221, 222, 74, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.converter {
+    display: grid;
+    grid-template-columns: 200px 180px;
+    column-gap: 10px;
+    z-index: 100;
+    position: absolute;
+    left: 280px;
+    top: 200px;
+}
+
+h1,
+p {
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+input {
+    width: 150px;
+    margin: 10px 15px;
+    height: 40px;
+    padding-left: 20px;
+    border-style: none;
+    border-radius: 5px;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(181, 148, 233, 1) 100%);
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+::placeholder {
+    color: #fff;
+}
+
+@media(max-width: 500px) {
+    body {
+        padding-top: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    input {
+        width: 90vw;
+        font-size: 2rem;
+    }
+
+}
