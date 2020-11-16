@@ -1,5 +1,7 @@
 # Roman number converter :rocket: :zap: :fire:
 
+![Converter](romans.gif)
+
 ## Development server
 
 Run `npm start` to run the app. Navigate to `http://localhost:3000/`. The app will automatically reload if you change any of the source files.
